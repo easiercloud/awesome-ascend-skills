@@ -139,6 +139,19 @@
       ]
     },
     {
+      "name": "ascend-dma-diagnose",
+      "description": "昇腾 NPU 单卡与多卡 H2D、D2H、双向 DMA 带宽测试和降速归因。联查完整 PCIe、CPU/NUMA、IIO/IOM 与框架代码，自动设计匹配对照并交付带宽表、拓扑和离线证据报告。",
+      "source": "./skills/base/ascend-dma-diagnose",
+      "category": "base",
+      "categories": [
+        "base",
+        "leaf-skill",
+        "hardware-diagnostics",
+        "benchmarking",
+        "performance-analysis"
+      ]
+    },
+    {
       "name": "ascend-avi-vnpu",
       "description": "昇腾虚拟化实例（AVI）和vNPU管理技能。用于查询/设置AVI模式、管理vNPU实例（创建/销毁）、查询vNPU配置恢复状态等操作。支持安全确认机制，在执行修改操作前检查设备状态。",
       "source": "./skills/base/ascend-avi-vnpu",
@@ -347,6 +360,7 @@
         "./skills/base/remote-server-guide",
         "./skills/base/npu-docker-launcher",
         "./skills/base/ascend-dmi",
+        "./skills/base/ascend-dma-diagnose",
         "./skills/base/ascend-avi-vnpu"
       ],
       "category": "bundle",
