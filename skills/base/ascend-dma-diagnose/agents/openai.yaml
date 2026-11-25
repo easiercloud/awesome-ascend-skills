@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ascend DMA 带宽与拓扑诊断"
+  short_description: "测试单卡、多卡及多机搬运带宽，联查 PCIe、CPU I/O 与框架代码并生成证据报告"
+  default_prompt: "使用 $ascend-dma-diagnose 测试这些机器的单卡与多卡搬运带宽，逐步诊断异常并生成带宽表、拓扑图和 HTML 证据报告。"

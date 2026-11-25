@@ -235,6 +235,7 @@ cp -r awesome-ascend-skills/skills/ops/npu-op-benchmark your-project/.agents/ski
 | [remote-server-guide](skills/base/remote-server-guide/SKILL.md) | 远程服务器连接：SSH 认证、容器连接、远程执行、文件传输与故障排查 |
 | [npu-docker-launcher](skills/base/npu-docker-launcher/SKILL.md) | NPU Docker 容器一键启动：自动配置设备挂载、网络、卷挂载和环境变量 |
 | [ascend-dmi](skills/base/ascend-dmi/SKILL.md) | NPU 硬件管理与诊断：状态、带宽、算力、功耗、压力测试与卡复位 |
+| [ascend-dma-diagnose](skills/base/ascend-dma-diagnose/SKILL.md) | 单卡/多卡 H2D、D2H、双向 DMA 基准与降速归因：完整 PCIe/CPU I/O 拓扑、匹配实验、带宽表和离线证据报告 |
 | [ascend-avi-vnpu](skills/base/ascend-avi-vnpu/SKILL.md) | AVI 模式与 vNPU 管理：虚拟化实例查询、创建、销毁与恢复状态检查 |
 | [remote-npu-test](skills/base/remote-npu-test/SKILL.md) | 远程服务器端到端推理/训练脚本验证 |
 
